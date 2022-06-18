@@ -1,2 +1,4 @@
 discord-bot/bot-token.txt
 discord-bot/bot-env
+discord-bot/data
+discord-bot/__pycache__
