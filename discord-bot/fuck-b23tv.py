@@ -22,7 +22,6 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    print(message.content)
     pattern = re.compile(r"((https:\/\/b23\.tv)\/(.+))")
     reRes = pattern.findall(message.content)
 
